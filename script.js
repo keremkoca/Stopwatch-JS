@@ -71,8 +71,8 @@ buttonReset.addEventListener("click", function () {
 buttonLap.classList.add("disabled");
 
 buttonLap.addEventListener("click", function () {
-  lapsNum++;
   if (!buttonStartStop.classList.value == "") {
+    lapsNum++;
     const lap = `${apendMin.innerText}:${apendSec.innerText}.${apendMil.innerText}`;
     const lapsLi = document.createElement("li");
     lapsLi.innerHTML = `<span>${lapsNum} - </span>${lap}`;

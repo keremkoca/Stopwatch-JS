@@ -27,8 +27,10 @@ h2 {
   height: 250px;
   background: black;
   border-radius: 50%;
-  border: 4px solid purple;
+  border: 8px outset black;
+  box-shadow: 0px 0px 20px #4195fc;
 }
+
 button {
   font-size: 1.2rem;
   background: black;
@@ -41,7 +43,9 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: rgb(21, 8, 8);
+  color: black;
+  background-color: blanchedalmond;
+  border: 4px solid purple;
 }
 button:active {
   transform: scale(1.1);
