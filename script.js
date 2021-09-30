@@ -75,7 +75,7 @@ buttonLap.addEventListener("click", function () {
     lapsNum++;
     const lap = `${apendMin.innerText}:${apendSec.innerText}.${apendMil.innerText}`;
     const lapsLi = document.createElement("li");
-    lapsLi.innerHTML = `<span>${lapsNum} - </span>${lap}`;
+    lapsLi.innerHTML = `<span>${lapsNum} # </span>${lap}`;
     lapsUl.prepend(lapsLi);
   }
 });
